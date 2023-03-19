@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: "Open Sans";
+}
+a{
+    text-decoration: none;
+}
+p
+{
+    color: black;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(2,4fr);
+    gap: 100px;
+}
+.songs
+{
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color:aqua;
+}
+p{
+    padding-top: 90px;
+}
+.telugu{
+    width: 400px;
+    height: 400px;
+    
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3,4fr);   
+}
+.telugur{
+    width: 400px;
+    height: 400px;
+    
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2,4fr);  
+}
+.back
+{
+    position: absolute;
+    left:150px;
+    width: 90px;
+    height: 30px;
+}
