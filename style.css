@@ -54,12 +54,12 @@ p{
     left:150px;
     width: 90px;
     height: 30px;
-    bottom: 315px;
 }
-.backr
-{
-    position: absolute;
-    left:150px;
-    width: 90px;
-    height: 30px;
-}
+@media only screen and (max-width: 767px) {
+    .back
+    {
+        text-align: center;
+        bottom: 675px;
+    }
+  }
+  
